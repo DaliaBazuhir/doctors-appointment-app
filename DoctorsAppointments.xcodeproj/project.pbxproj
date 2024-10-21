@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082CCFAC2CAEB04F00E9339C /* DoctorsAppointmentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CCFAB2CAEB04F00E9339C /* DoctorsAppointmentsApp.swift */; };
+		082CCFAE2CAEB04F00E9339C /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CCFAD2CAEB04F00E9339C /* MainScreen.swift */; };
+		082CCFB02CAEB05100E9339C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082CCFAF2CAEB05100E9339C /* Assets.xcassets */; };
+		082CCFB32CAEB05100E9339C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082CCFB22CAEB05100E9339C /* Preview Assets.xcassets */; };
+		082CCFBA2CAEC07300E9339C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CCFB92CAEC07300E9339C /* HomeScreen.swift */; };
+		082CCFBD2CAECB0700E9339C /* Doctor Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CCFBC2CAECB0700E9339C /* Doctor Card.swift */; };
+		082CCFBF2CAECB2900E9339C /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CCFBE2CAECB2900E9339C /* Doctor.swift */; };
+		08317FA02CB2E7D000DEBC6A /* HospitalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08317F9F2CB2E7D000DEBC6A /* HospitalScreen.swift */; };
+		084540452CB1900500FF0835 /* DoctorDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084540442CB1900500FF0835 /* DoctorDetailsView.swift */; };
+		084540482CB1C8FF00FF0835 /* ReviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084540472CB1C8FF00FF0835 /* ReviewCard.swift */; };
+		0845404A2CB1CD6600FF0835 /* ReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084540492CB1CD6600FF0835 /* ReviewScreen.swift */; };
+		0845404C2CB1CD6F00FF0835 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0845404B2CB1CD6F00FF0835 /* Review.swift */; };
+		0845404F2CB1DAF700FF0835 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0845404E2CB1DAF700FF0835 /* Hospital.swift */; };
+		084540512CB1DC0800FF0835 /* HospitalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084540502CB1DC0800FF0835 /* HospitalCard.swift */; };
+		084540542CB1E47300FF0835 /* HealthTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084540532CB1E47300FF0835 /* HealthTip.swift */; };
+		084540562CB1E55700FF0835 /* HealthTipCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084540552CB1E55700FF0835 /* HealthTipCard.swift */; };
+		084540582CB1E84A00FF0835 /* AllHealthTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084540572CB1E84A00FF0835 /* AllHealthTipsView.swift */; };
+		0845405A2CB1EC3200FF0835 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084540592CB1EC3200FF0835 /* UserView.swift */; };
+		08F08E1B2CB3C83E003420F1 /* AppointmentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F08E1A2CB3C83E003420F1 /* AppointmentDetailsView.swift */; };
+		08F08E1D2CB3D4C4003420F1 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F08E1C2CB3D4C4003420F1 /* Appointment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		082CCFA82CAEB04F00E9339C /* DoctorsAppointments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorsAppointments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082CCFAB2CAEB04F00E9339C /* DoctorsAppointmentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsAppointmentsApp.swift; sourceTree = "<group>"; };
+		082CCFAD2CAEB04F00E9339C /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		082CCFAF2CAEB05100E9339C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082CCFB22CAEB05100E9339C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		082CCFB92CAEC07300E9339C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		082CCFBC2CAECB0700E9339C /* Doctor Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor Card.swift"; sourceTree = "<group>"; };
+		082CCFBE2CAECB2900E9339C /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		08317F9F2CB2E7D000DEBC6A /* HospitalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalScreen.swift; sourceTree = "<group>"; };
+		084540442CB1900500FF0835 /* DoctorDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsView.swift; sourceTree = "<group>"; };
+		084540472CB1C8FF00FF0835 /* ReviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCard.swift; sourceTree = "<group>"; };
+		084540492CB1CD6600FF0835 /* ReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreen.swift; sourceTree = "<group>"; };
+		0845404B2CB1CD6F00FF0835 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		0845404E2CB1DAF700FF0835 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		084540502CB1DC0800FF0835 /* HospitalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCard.swift; sourceTree = "<group>"; };
+		084540532CB1E47300FF0835 /* HealthTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTip.swift; sourceTree = "<group>"; };
+		084540552CB1E55700FF0835 /* HealthTipCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipCard.swift; sourceTree = "<group>"; };
+		084540572CB1E84A00FF0835 /* AllHealthTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllHealthTipsView.swift; sourceTree = "<group>"; };
+		084540592CB1EC3200FF0835 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		08F08E1A2CB3C83E003420F1 /* AppointmentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsView.swift; sourceTree = "<group>"; };
+		08F08E1C2CB3D4C4003420F1 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082CCFA52CAEB04F00E9339C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082CCF9F2CAEB04F00E9339C = {
+			isa = PBXGroup;
+			children = (
+				082CCFAA2CAEB04F00E9339C /* DoctorsAppointments */,
+				082CCFA92CAEB04F00E9339C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		082CCFA92CAEB04F00E9339C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082CCFA82CAEB04F00E9339C /* DoctorsAppointments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		082CCFAA2CAEB04F00E9339C /* DoctorsAppointments */ = {
+			isa = PBXGroup;
+			children = (
+				084540522CB1E45800FF0835 /* HealthTip */,
+				0845404D2CB1DAE300FF0835 /* Hospital */,
+				084540462CB1C8DE00FF0835 /* Review */,
+				082CCFBB2CAECAE300E9339C /* Doctors */,
+				082CCFAB2CAEB04F00E9339C /* DoctorsAppointmentsApp.swift */,
+				082CCFAD2CAEB04F00E9339C /* MainScreen.swift */,
+				082CCFB92CAEC07300E9339C /* HomeScreen.swift */,
+				082CCFAF2CAEB05100E9339C /* Assets.xcassets */,
+				082CCFB12CAEB05100E9339C /* Preview Content */,
+				084540592CB1EC3200FF0835 /* UserView.swift */,
+				08F08E1A2CB3C83E003420F1 /* AppointmentDetailsView.swift */,
+				08F08E1C2CB3D4C4003420F1 /* Appointment.swift */,
+			);
+			path = DoctorsAppointments;
+			sourceTree = "<group>";
+		};
+		082CCFB12CAEB05100E9339C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				082CCFB22CAEB05100E9339C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		082CCFBB2CAECAE300E9339C /* Doctors */ = {
+			isa = PBXGroup;
+			children = (
+				082CCFBC2CAECB0700E9339C /* Doctor Card.swift */,
+				082CCFBE2CAECB2900E9339C /* Doctor.swift */,
+				084540442CB1900500FF0835 /* DoctorDetailsView.swift */,
+			);
+			path = Doctors;
+			sourceTree = "<group>";
+		};
+		084540462CB1C8DE00FF0835 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				084540472CB1C8FF00FF0835 /* ReviewCard.swift */,
+				084540492CB1CD6600FF0835 /* ReviewScreen.swift */,
+				0845404B2CB1CD6F00FF0835 /* Review.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		0845404D2CB1DAE300FF0835 /* Hospital */ = {
+			isa = PBXGroup;
+			children = (
+				0845404E2CB1DAF700FF0835 /* Hospital.swift */,
+				084540502CB1DC0800FF0835 /* HospitalCard.swift */,
+				08317F9F2CB2E7D000DEBC6A /* HospitalScreen.swift */,
+			);
+			path = Hospital;
+			sourceTree = "<group>";
+		};
+		084540522CB1E45800FF0835 /* HealthTip */ = {
+			isa = PBXGroup;
+			children = (
+				084540532CB1E47300FF0835 /* HealthTip.swift */,
+				084540552CB1E55700FF0835 /* HealthTipCard.swift */,
+				084540572CB1E84A00FF0835 /* AllHealthTipsView.swift */,
+			);
+			path = HealthTip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		082CCFA72CAEB04F00E9339C /* DoctorsAppointments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082CCFB62CAEB05100E9339C /* Build configuration list for PBXNativeTarget "DoctorsAppointments" */;
+			buildPhases = (
+				082CCFA42CAEB04F00E9339C /* Sources */,
+				082CCFA52CAEB04F00E9339C /* Frameworks */,
+				082CCFA62CAEB04F00E9339C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorsAppointments;
+			productName = DoctorsAppointments;
+			productReference = 082CCFA82CAEB04F00E9339C /* DoctorsAppointments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082CCFA02CAEB04F00E9339C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					082CCFA72CAEB04F00E9339C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 082CCFA32CAEB04F00E9339C /* Build configuration list for PBXProject "DoctorsAppointments" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 082CCF9F2CAEB04F00E9339C;
+			productRefGroup = 082CCFA92CAEB04F00E9339C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				082CCFA72CAEB04F00E9339C /* DoctorsAppointments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		082CCFA62CAEB04F00E9339C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082CCFB32CAEB05100E9339C /* Preview Assets.xcassets in Resources */,
+				082CCFB02CAEB05100E9339C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		082CCFA42CAEB04F00E9339C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084540582CB1E84A00FF0835 /* AllHealthTipsView.swift in Sources */,
+				084540452CB1900500FF0835 /* DoctorDetailsView.swift in Sources */,
+				084540542CB1E47300FF0835 /* HealthTip.swift in Sources */,
+				08F08E1D2CB3D4C4003420F1 /* Appointment.swift in Sources */,
+				08317FA02CB2E7D000DEBC6A /* HospitalScreen.swift in Sources */,
+				0845404F2CB1DAF700FF0835 /* Hospital.swift in Sources */,
+				082CCFAE2CAEB04F00E9339C /* MainScreen.swift in Sources */,
+				0845404C2CB1CD6F00FF0835 /* Review.swift in Sources */,
+				084540482CB1C8FF00FF0835 /* ReviewCard.swift in Sources */,
+				0845405A2CB1EC3200FF0835 /* UserView.swift in Sources */,
+				082CCFBF2CAECB2900E9339C /* Doctor.swift in Sources */,
+				084540512CB1DC0800FF0835 /* HospitalCard.swift in Sources */,
+				082CCFBD2CAECB0700E9339C /* Doctor Card.swift in Sources */,
+				08F08E1B2CB3C83E003420F1 /* AppointmentDetailsView.swift in Sources */,
+				082CCFAC2CAEB04F00E9339C /* DoctorsAppointmentsApp.swift in Sources */,
+				082CCFBA2CAEC07300E9339C /* HomeScreen.swift in Sources */,
+				0845404A2CB1CD6600FF0835 /* ReviewScreen.swift in Sources */,
+				084540562CB1E55700FF0835 /* HealthTipCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		082CCFB42CAEB05100E9339C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		082CCFB52CAEB05100E9339C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		082CCFB72CAEB05100E9339C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DoctorsAppointments/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.DoctorsAppointments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		082CCFB82CAEB05100E9339C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DoctorsAppointments/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.DoctorsAppointments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082CCFA32CAEB04F00E9339C /* Build configuration list for PBXProject "DoctorsAppointments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082CCFB42CAEB05100E9339C /* Debug */,
+				082CCFB52CAEB05100E9339C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082CCFB62CAEB05100E9339C /* Build configuration list for PBXNativeTarget "DoctorsAppointments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082CCFB72CAEB05100E9339C /* Debug */,
+				082CCFB82CAEB05100E9339C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082CCFA02CAEB04F00E9339C /* Project object */;
+}
